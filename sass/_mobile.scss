@@ -1,0 +1,161 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+$backgroundColor: white;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @include createHeading(Vidaloka);
+}
+
+p,
+    {
+    @include createParagraph(Raleway);
+}
+
+h4 {
+    padding: 10px 0;
+    text-align: center;
+}
+
+div {}
+
+h6 {
+    font-size: 1.3em;
+}
+
+body {
+    background-color: $backgroundColor;
+}
+
+.Logo {
+    padding: 30px 20px;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+.site-nav {
+    ul {
+        margin-bottom: 2.5em;
+        padding-top: 2em;
+        text-align: center;
+    }
+
+    li {
+        flex: 20%;
+        font-size: 0.8em;
+        display: inline-block;
+        list-style-type: none;
+        padding: 0 2em;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover {
+        color: #cc0033;
+    }
+
+}
+
+.rad1 {
+    padding: 0 2em 0 2em;
+}
+
+.rad2 {
+    padding: 1.5em 0 0 0;
+
+}
+
+.om_elexir {
+    text-align: center;
+    padding: 1.5em 0 1.5em 0;
+    max-width: 80%;
+}
+
+.om_elexir p {
+    line-height: 2em;
+}
+
+.col_juice {
+    padding: 1.5em 0 1.5em 0;
+    border-bottom: 2px dotted black;
+    border-top: 2px dotted black;
+
+    img {
+        width: 100%;
+    }
+}
+
+.Erbjudande p {
+    padding: 1.5em 0 1.5em 0;
+    max-width: 80%;
+}
+
+.juice_container {
+    padding: 1.5em 0 1.5em 0;
+}
+
+.Thulegatan {
+    margin-bottom: 2.5em;
+}
+
+.Mariatorget {
+    margin-top: 1.5em;
+    margin-bottom: 2.5em;
+}
+
+.Butiker {
+    border-top: 2px dotted black;
+    padding-top: 1.5em;
+}
+
+.butikstext p {
+    margin-bottom: 1px;
+}
+
+.profile_color img {
+    width: 80%;
+    padding-top: 0.6em;
+}
+
+.mapouter {
+    text-align: right;
+    height: 277px;
+    width: 100%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 277px;
+    width: 100%;
+}
+
+footer {
+    height: 20em;
+    background-color: #939598;
+    margin-top: 3em;
+    color: white;
+
+    img {
+        padding: 1em 0 1.5em 0;
+    }
+
+    p {
+        line-height: 1em;
+    }
+
+    .social_media_icons {
+        width: 150px;
+        padding-top: 0;
+    }
+}

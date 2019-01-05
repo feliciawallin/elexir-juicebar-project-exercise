@@ -1,0 +1,64 @@
+body {
+    background-color: $backgroundColor;
+} 
+
+.site-nav ul li{
+    font-size: 1em;
+}
+
+h1 {
+    padding: 0.8em 0em;
+}
+
+.col_juice{
+    border: 5px dotted #ffcc00; 
+    border-radius: 0.3em;
+}
+
+.col_juice2 {
+    text-align:center; 
+    margin-top: 0;
+    border: none;
+}
+
+.juice_gallery{
+    text-align: center;
+    
+    img {
+        width: 100%;
+    }
+}
+
+.img_frame {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+    
+    img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+
+}
+.rad1{
+    padding: 0 0 5em 0;
+    margin-bottom: 5em;
+    border-top: 2px dotted black;
+    padding-top: 5em;
+    margin-top: 2em;
+    
+}
+
+.Mariatorget {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+

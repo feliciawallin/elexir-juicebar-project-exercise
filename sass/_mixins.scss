@@ -1,0 +1,9 @@
+@mixin createHeading($fontFamily){
+    font-family: $fontFamily;
+    text-align: center;
+}
+
+@mixin createParagraph($fontFamily){
+    font-family: $fontFamily;
+    line-height: 1.7em;
+}
